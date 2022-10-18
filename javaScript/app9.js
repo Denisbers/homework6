@@ -1,8 +1,8 @@
-let n = + prompt('enter the number')
-
+let n = +prompt('enter the number')
 for (a = 1; a <= n; a++)
-    if (n % a === 0)
-        console.log(a);
+    if (n % a === 0) {
+        document.write(a + ' ')
+    }
 
 
 
